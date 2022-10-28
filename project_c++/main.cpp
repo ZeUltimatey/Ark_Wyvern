@@ -1,7 +1,8 @@
 // C++ program to implement the program that illustrates Online shopping in ss.com
 #include <bits/stdc++.h>
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
+#include <fstream>
 using namespace std;
 
 char c1, f1;
@@ -84,8 +85,7 @@ void selectedjob_and_business(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Vacancies";
                 select_cateorie_action(categorie);
@@ -136,8 +136,7 @@ void selectedTransport(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Cars";
                 select_cateorie_action(categorie);
@@ -188,8 +187,7 @@ void selectedReal_Estate(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "";
                 select_cateorie_action(categorie);
@@ -240,8 +238,7 @@ void selectedConstruction(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Building_materials";
                 select_cateorie_action(categorie);
@@ -292,8 +289,7 @@ void selectedElectronics(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Phones";
                 select_cateorie_action(categorie);
@@ -344,8 +340,7 @@ void selectedClothes_Footwear(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Women's_clothes";
                 select_cateorie_action(categorie);
@@ -396,8 +391,7 @@ void selectedHome(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Furniture,_interior";
                 select_cateorie_action(categorie);
@@ -448,8 +442,7 @@ void selectedProduction_Work(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Equipment";
                 select_cateorie_action(categorie);
@@ -500,8 +493,7 @@ void selectedFor_Children(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "All_for_school";
                 select_cateorie_action(categorie);
@@ -552,8 +544,7 @@ void selectedAnimals(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Dogs,_puppies";
                 select_cateorie_action(categorie);
@@ -604,8 +595,7 @@ void selectedAgriculture(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Animal_husbandry";
                 select_cateorie_action(categorie);
@@ -656,8 +646,7 @@ void selectedRest_Hobbies(){
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
-        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5
-            || selectedNum == 6 || selectedNum == 7 || selectedNum == 8 || selectedNum == 9) {
+        if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
             if (selectedNum == 1) {
                 string categorie = "Collecting";
                 select_cateorie_action(categorie);

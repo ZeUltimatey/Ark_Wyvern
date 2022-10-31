@@ -1,8 +1,6 @@
 // C++ program to implement the program that illustrates Online shopping in ss.com
 #include <bits/stdc++.h>
 #include <iostream>
-#include <cstdlib>
-#include <fstream>
 using namespace std;
 
 char c1, f1;
@@ -43,11 +41,11 @@ void select_cateorie_action(string categorie){
     cin >> f1;
     if (f1 == 'W' || f1 == 'w') {
         system("cls");
-        cout << "\n";
-        cout << "Write the post: ";
-        ofstream file(categorie + ".txt");
         string input;
+        cout << "\n";
+        cout << "Write the post: " << endl;
         cin >> input;
+        ofstream file(categorie + ".txt");
         file << input << endl;
         file.close();
     }

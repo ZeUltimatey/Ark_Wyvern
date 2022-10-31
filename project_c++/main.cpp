@@ -41,12 +41,15 @@ void select_cateorie_action(string categorie){
     cin >> f1;
     if (f1 == 'W' || f1 == 'w') {
         system("cls");
-        string input;
+        string input, main_input;
         cout << "\n";
         cout << "Write the post: " << endl;
         cin >> input;
+        main_input = input;
+        getline(cin, input);
+        main_input = main_input + input;
         ofstream file(categorie + ".txt");
-        file << input << endl;
+        file << main_input << endl;
         file.close();
     }
     if (f1 == 'R' || f1 == 'r') {

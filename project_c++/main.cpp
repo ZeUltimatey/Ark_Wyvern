@@ -1,6 +1,6 @@
 // C++ program to implement the program that illustrates Online shopping in ss.com
-#include <bits/stdc++.h>
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 char c1, f1;
@@ -65,6 +65,8 @@ void select_cateorie_action(string categorie){
         }
         else cout << "Unable to open posts";
     }
+    system("pause");
+    system("cls");
 }
 
 void showjob_and_businessMenu(){
@@ -82,11 +84,11 @@ void selectedjob_and_business(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Vacancies";
                 select_cateorie_action(categorie);
@@ -133,11 +135,11 @@ void selectedTransport(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Cars";
                 select_cateorie_action(categorie);
@@ -184,11 +186,11 @@ void selectedReal_Estate(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "";
                 select_cateorie_action(categorie);
@@ -235,11 +237,11 @@ void selectedConstruction(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Building_materials";
                 select_cateorie_action(categorie);
@@ -286,11 +288,11 @@ void selectedElectronics(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Phones";
                 select_cateorie_action(categorie);
@@ -337,11 +339,11 @@ void selectedClothes_Footwear(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Women's_clothes";
                 select_cateorie_action(categorie);
@@ -388,11 +390,11 @@ void selectedHome(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Furniture,_interior";
                 select_cateorie_action(categorie);
@@ -439,11 +441,11 @@ void selectedProduction_Work(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Equipment";
                 select_cateorie_action(categorie);
@@ -490,11 +492,11 @@ void selectedFor_Children(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "All_for_school";
                 select_cateorie_action(categorie);
@@ -541,11 +543,11 @@ void selectedAnimals(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Dogs,_puppies";
                 select_cateorie_action(categorie);
@@ -592,11 +594,11 @@ void selectedAgriculture(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Animal_husbandry";
                 select_cateorie_action(categorie);
@@ -643,11 +645,11 @@ void selectedRest_Hobbies(){
     cout << "Do you wish to continue? " << "For yes press (Y/y), " << "if no press other letter: ";
     cin >> c1;
     if (c1 == 'Y' || c1 == 'y') {
-        system("cls");
         cout << "\n";
         cout << "Enter the respective number: ";
         cin >> selectedNum;
         if (selectedNum == 1 || selectedNum == 2 || selectedNum == 3 || selectedNum == 4 || selectedNum == 5) {
+            system("cls");
             if (selectedNum == 1) {
                 string categorie = "Collecting";
                 select_cateorie_action(categorie);
@@ -694,6 +696,7 @@ int main()
             cin >> num;
             if (num == 1 || num == 2 || num == 3 || num == 4|| num == 5 || num == 6
                 || num == 7 || num == 8 || num == 9 || num == 10 || num == 11 || num == 12) {
+                system("cls");
                 switch (num) {
                     case 1:
                         // job and business
